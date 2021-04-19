@@ -1,17 +1,6 @@
-import './styles/index.scss'
-
-const elevenShieldRecipe = 
-    {
-        leatherStripe:2,
-        ironIngot:1,
-        refinedMoonstone:4
-    }
-const twelveShieldRecipe = {
-    ...elevenShieldRecipe,
-    leather:9,
-    refinedMoonstone:30
-};
+import {render} from 'react-dom'
+import App from './components/app'
 
 
-console.log(elevenShieldRecipe);
-console.log(twelveShieldRecipe);
+render(<App/>, document.getElementById('root'));
+
